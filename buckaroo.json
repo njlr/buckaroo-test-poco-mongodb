@@ -1,0 +1,6 @@
+{
+  "name": "buckaroo-test-poco-mongodb",
+  "dependencies": {
+    "pocoproject/mongodb": "1.7.8"
+  }
+}

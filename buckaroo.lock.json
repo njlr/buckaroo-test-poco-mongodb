@@ -1,0 +1,41 @@
+{
+  "pocoproject/mongodb": {
+    "source": {
+      "url": "https://github.com/pocoproject/poco/archive/4403634bef7990ff0dff9f12a12a03b4d32006b6.zip",
+      "sha256": "079e088de62a97e5712d83ccc35ad338555d5ac038bd7e9def8b4f77cbf8ce3d",
+      "subPath": "poco-4403634bef7990ff0dff9f12a12a03b4d32006b6"
+    },
+    "dependencies": [
+      "pocoproject.net//:net"
+    ],
+    "buck": {
+      "url": "https://raw.githubusercontent.com/njlr/poco/bd2d27a42c31b32402c9c9bd8e283ef26ed67d73/BUCK",
+      "sha256": "af3be682cfbb45f47448125c6d23917a50f2fc4b3792f3f2e177a0a175f67222"
+    }
+  },
+  "pocoproject/net": {
+    "source": {
+      "url": "https://github.com/pocoproject/poco/archive/4403634bef7990ff0dff9f12a12a03b4d32006b6.zip",
+      "sha256": "079e088de62a97e5712d83ccc35ad338555d5ac038bd7e9def8b4f77cbf8ce3d",
+      "subPath": "poco-4403634bef7990ff0dff9f12a12a03b4d32006b6"
+    },
+    "dependencies": [
+      "pocoproject.foundation//:foundation"
+    ],
+    "buck": {
+      "url": "https://raw.githubusercontent.com/njlr/poco/a22bc4fef37b61e4c0edacfb61f12bbc879c8b4d/BUCK",
+      "sha256": "f25e5c4dbeb05d0bb3f1251cb08a411395f5735b9768674752cf61c753f614e5"
+    }
+  },
+  "pocoproject/foundation": {
+    "source": {
+      "url": "https://github.com/pocoproject/poco/archive/4403634bef7990ff0dff9f12a12a03b4d32006b6.zip",
+      "sha256": "079e088de62a97e5712d83ccc35ad338555d5ac038bd7e9def8b4f77cbf8ce3d",
+      "subPath": "poco-4403634bef7990ff0dff9f12a12a03b4d32006b6"
+    },
+    "buck": {
+      "url": "https://raw.githubusercontent.com/njlr/poco/3d4dbf4a33fb9e4dff0604b52416f48a6ce0fd5d/BUCK",
+      "sha256": "5fe2bae15508035df2a7231fabc687210aab383c7d231380f53b0815593e1db8"
+    }
+  }
+}
